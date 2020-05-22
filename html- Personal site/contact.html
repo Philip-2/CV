@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Contact details</h1>
+    <p><strong>Email:</strong> philipasheerin@gmail.com</p>
+    <hr>
+    <!-- The form has two main parts the label(text on the page) and the input(the thing it is e.g. password field-->
+    <!-- There are lots of types of inputs (check MDN) e.g. submit-submit button, file-lets user choose a file to upload.-->
+    <h1>Would you like to send me a message?</h1>
+    <form enctype="text/plain" action="mailto:philipasheerin@gmail.com" method="post">
+      <label>Your name:</label>
+      <input type="text" name="YourName" value=""><br><br>
+      <label>Your email:</label>
+      <input type="email" name="YourEmail" value=""><br><br>
+      <label>Your message:</label> <br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea>
+      <br> <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
